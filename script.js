@@ -1,9 +1,9 @@
-let data = {
-  photo: "images/1.jpg",
-  title: "Abigél 1 hónapos",
-  description:
-    "Kicsit szomorú arcot vág, mert éppen most hagyta abba a sírást. Nem volt kedve fotózkodni. :)",
-};
+//let data = {
+  //photo: "images/1.jpg",
+  //title: "Abigél 1 hónapos",
+  //description:
+   // "Kicsit szomorú arcot vág, mert éppen most hagyta abba a sírást. Nem volt kedve fotózkodni. :)",
+//};
 
 // $("#photo").append("src", data.photo); // ez nem működik
 // $("#photo-title").append(data.title);
@@ -87,12 +87,13 @@ $('#arrow_forward').click(() => {
 
 // nem működik:
 
-function addThumbnails(photo) {
-    $('#thumbnails').append('<img class="small-img">')
-    $('#small-img').append("src", photo)
-};
+// function addThumbnails(photo) {
+//    $('#thumbnails').append('<img class="small-img">')
+//    $('#small-img').append("src", photo)
+// };
 
-imagesData.forEach(addThumbnails);
+// imagesData.forEach(addThumbnails);
+
 
 
 
