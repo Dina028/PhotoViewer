@@ -63,6 +63,7 @@ let imagesData = [
 
 // a fotóknál nem működik:
 
+
 let loadPhoto = (photoNumber) => {
   $("#photo").append("src", imagesData[photoNumber].photo);
   $("#photo-title").append(imagesData[photoNumber].title);
@@ -93,6 +94,8 @@ $('#arrow_forward').click(() => {
 // };
 
 // imagesData.forEach(addThumbnails);
+
+
 
 
 
